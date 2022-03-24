@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=IM+Fell+DW+Pica&display=swap');
+/* font-family: 'Cantarell', sans-serif;
+font-family: 'IM Fell DW Pica', serif;*/
+
+
+
+:root { /*CORES*/
+    --amarelo: #FFCF4F;
+    --laranja: #FCA34E;
+    --rosa: #E553B3;
+    --azul: #4E5AFC;
+    --verdeazulado: #4DF0BE;
+    
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Cantarell', sans-serif;
+    background-color: #FFCF4F;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    min-height: 150px;
+    max-height: 220px;
+    width: auto;
+    padding: 30px 30px 0px 30px;
+}
+header #principal {
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 4em;
+    margin: 9px;
+}
+header > p {
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 2em;
+    color: #71b947;
+}
+nav {
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav > a {
+    color: black;
+    padding: 0px 40px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav > a:hover {
+    color: darkgray;
+    transition-duration: 0.5s;
+}
+
+
+main {
+    background-color: #B38D25;
+    box-shadow: 0px 1px #71b94773;
+    margin: auto;
+    min-width: 350px;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+main h1 {
+    margin: 10px;
+    font-family: 'IM Fell DW Pica', serif;  
+    font-size: 2em;
+}
+main p {
+    text-indent: 10px;
+    font-size: large;
+    text-align: justify;
+}
+article {
+    text-align: justify;
+    padding: 9px;
+}
+
+
+ul {
+    font-size: larger;
+    list-style-position: inside;
+    columns: 2;
+    margin-bottom: 10px;
+    list-style-type: '\1F95C';
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: #71b947;
+}

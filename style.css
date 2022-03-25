@@ -19,18 +19,18 @@ font-family: 'IM Fell DW Pica', serif;*/
 
 body {
     font-family: 'Cantarell', sans-serif;
-    background-color: white;
-    background-image: linear-gradient(to bottom, #F2CB57 30%, white);
 }
 
 header {
-    background-image: url(midias/imagens/pimenta_g.jpeg);
+    background-color: var(--rosa);
+    background-image: url(midias/imagens/banana_g.jpeg);
+    background-position: 50%;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     text-align: center;
     margin: auto;
-    min-height: 288px;
-    max-height: 220px;
+    min-height: 220px;
+    max-height: 288px;
     width: auto;
     padding: 30px 30px 0px 30px;
 }

@@ -19,14 +19,11 @@ font-family: 'IM Fell DW Pica', serif;*/
 
 body {
     font-family: 'Cantarell', sans-serif;
+    background-color: #1b2c11;
 }
 
 header {
-    background-color: var(--rosa);
-    background-image: url(midias/imagens/banana_g.jpeg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #71b947;
     text-align: center;
     margin: auto;
     min-height: 220px;
@@ -68,8 +65,8 @@ nav > a:hover {
 
 
 main {
-    background-color: #fffffe;
-    box-shadow: 0px 1px #71b94773;
+    background-color: #fffffe23;
+    box-shadow: 0px 5px #71b94773;
     margin: auto;
     min-width: 350px;
     max-width: 700px;

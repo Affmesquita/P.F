@@ -19,27 +19,34 @@ font-family: 'IM Fell DW Pica', serif;*/
 
 body {
     font-family: 'Cantarell', sans-serif;
-    background-color: #FFCF4F;
+    background-color: white;
+    background-image: linear-gradient(to bottom, #F2CB57 30%, white);
 }
 
 header {
+    background-image: url(midias/imagens/pimenta_g.jpeg);
+    background-size: cover;
+    background-position: center center;
     text-align: center;
     margin: auto;
-    min-height: 150px;
+    min-height: 288px;
     max-height: 220px;
     width: auto;
     padding: 30px 30px 0px 30px;
 }
-header #principal {
+header > #principal {
     font-family: 'IM Fell DW Pica', serif;
     font-size: 4em;
     margin: 9px;
+    padding-top: 40px;
 }
 header > p {
     font-family: 'IM Fell DW Pica', serif;
     font-size: 2em;
-    color: #71b947;
+    color: #1b2c11;
+    text-decoration: underline;
 }
+
 nav {
     font-family: 'Cantarell', sans-serif;
     text-align: center;
@@ -61,7 +68,7 @@ nav > a:hover {
 
 
 main {
-    background-color: #B38D25;
+    background-color: #fffffe;
     box-shadow: 0px 1px #71b94773;
     margin: auto;
     min-width: 350px;

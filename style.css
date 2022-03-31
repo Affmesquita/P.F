@@ -18,8 +18,13 @@ font-family: 'IM Fell DW Pica', serif;*/
 }
 
 body {
+    max-height: 100vh;
     font-family: 'Cantarell', sans-serif;
     background-color: #1b2c11;
+    background-image: url(midias/imagens/ello-AEU9UZstCfs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -74,12 +79,12 @@ main {
     padding: 10px;
     margin-bottom: 50px;
 }
-main h1 {
+main > h1 {
     margin: 10px;
     font-family: 'IM Fell DW Pica', serif;  
     font-size: 2em;
 }
-main p {
+main > p {
     text-indent: 10px;
     font-size: large;
     text-align: justify;
@@ -96,10 +101,6 @@ ul {
     columns: 2;
     margin-bottom: 10px;
     list-style-type: '\1F95C';
-}
-img {
-    display: block;
-    margin: auto;
 }
 
 footer {

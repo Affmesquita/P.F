@@ -21,7 +21,8 @@ body {
     max-height: 100vh;
     font-family: 'Cantarell', sans-serif;
     background-color: #1b2c11;
-    background-image: url(midias/imagens/ello-AEU9UZstCfs-unsplash.jpg);
+    background-image: url(midias/imagens/geladeira_frutas.jpg);
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -40,7 +41,7 @@ header > #principal {
     font-family: 'IM Fell DW Pica', serif;
     font-size: 4em;
     margin: 9px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 header > p {
     font-family: 'IM Fell DW Pica', serif;
@@ -70,7 +71,7 @@ nav > a:hover {
 
 
 main {
-    background-color: #fffffe23;
+    background-color: #fffffed5;
     box-shadow: 0px 5px #71b94773;
     margin: auto;
     min-width: 350px;

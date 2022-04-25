@@ -28,18 +28,20 @@ body {
     background-attachment: scroll;
 }
 
-header {
-    text-align: center;
-    margin: auto;
-    min-height: 220px;
-    max-height: 288px;
-    width: 258px;
+.cabeça {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b2c1181;
+    margin-bottom: 100px;
 }
+
+
 header > #principal {
     font-family: 'IM Fell DW Pica', serif;
-    font-size: 4em;
+    font-size: 2em;
     margin: 9px;
-    padding-top: 20px;
+    padding-left: 70px;
 }
 header > p {
     font-family: 'IM Fell DW Pica', serif;

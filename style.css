@@ -8,8 +8,10 @@ font-family: 'IM Fell DW Pica', serif;*/
     --amarelo: #FFCF4F;
     --laranja: #FCA34E;
     --rosa: #E553B3;
+    --rosa2: #e7476f;
     --azul: #4E5AFC;
     --verdeazulado: #4DF0BE;
+    --brancofundo: #EEF2E9;
     
 }
 * {
@@ -18,20 +20,12 @@ font-family: 'IM Fell DW Pica', serif;*/
 }
 
 body {
-    max-height: 100vh;
     font-family: 'Cantarell', sans-serif;
-    background-color: #1b2c11;
-    background-image: url(midias/imagens/fundo-principal.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-}
-header {
-
+    background-color: #EEF2E9;
 }
 
 header > #principal {
+    color: #e7476f;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 8em;
     margin: 9px;
@@ -44,7 +38,6 @@ header > p {
     color: #1b2c11;
     text-decoration: underline;
 }
-
 nav {
     font-family: 'Cantarell', sans-serif;
     text-align: center;
@@ -57,7 +50,6 @@ nav > a {
     margin: auto;
     text-decoration: none;
     font-weight: bold;
-
 }
 nav > a:hover {
     color: rgb(14, 94, 38);
@@ -65,15 +57,13 @@ nav > a:hover {
 }
 
 
+
+/* CONTEUDO*/
+
+
+
 main {
     background-color: #fffffe;
-    box-shadow: 0px 5px #71b94773;
-    margin: auto;
-    min-width: 350px;
-    max-width: 700px;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 50px;
 }
 main > h1 {
     margin: 10px;
@@ -85,24 +75,23 @@ main > p {
     font-size: large;
     text-align: justify;
 }
-article {
-    text-align: justify;
-    padding: 9px;
+.inicio {
+    height: 500px;
+    background-color: #EEF2E9;
+    background-image: url(midias/imagens/geladeira_frutas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
-ul {
-    font-size: larger;
-    list-style-position: inside;
-    columns: 2;
-    margin-bottom: 10px;
-    list-style-type: '\1F95C';
-}
+
+
 
 footer {
     text-align: center;
     color: black;
-    background-color: #71b947;
+    background-color: #e7476f59;
     
 }
 

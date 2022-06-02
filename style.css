@@ -21,16 +21,30 @@ font-family: 'IM Fell DW Pica', serif;*/
 
 body {
     font-family: 'Cantarell', sans-serif;
-    background-color: #EEF2E9;
+    background-color: #ffffff;
 }
 
 header > #principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 554px;
+
+    background-color: #ffffff;
+    background-image: url(midias/imagens/LO.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
     color: #e7476f;
+
+    text-align: center;
     font-family: 'IM Fell DW Pica', serif;
     font-size: 8em;
     margin: 9px;
     padding-top: 20px; 
-    text-align: center;
 }
 header > p {
     font-family: 'IM Fell DW Pica', serif;
@@ -75,15 +89,7 @@ main > p {
     font-size: large;
     text-align: justify;
 }
-.inicio {
-    height: 500px;
-    background-color: #EEF2E9;
-    background-image: url(midias/imagens/geladeira_frutas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 60px;
-}
+
 .subtitulo{
     font-family: 'IM Fell DW Pica', serif;
 }
